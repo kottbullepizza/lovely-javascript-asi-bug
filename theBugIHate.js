@@ -5,4 +5,5 @@ function theBugIHate() {
     };
 }
 
-console.log(theBugIHate());
+
+console.log(theBugIHate()); // returns "undefined" rather than "{ a: 1 }"
